@@ -1,0 +1,9 @@
+<launch>
+	<node pkg="kict_example" type="gps_imu_parser.py" name="odom"/>
+	<node pkg="kict_example" type="advanced_purpursuit.py" name="controller" output="screen"/>
+	<node pkg="kict_example" type="path_pub.py" name="path"/>
+	<node pkg="kict_example" type="acc.py" name="algorithm"/>
+	<node pkg="rviz" type="rviz" name="rviz" args="-d $(find kict_example)/rviz/demo.rviz" />
+</launch>
+
+

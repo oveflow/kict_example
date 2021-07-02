@@ -1,0 +1,34 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
+#PATH_MAKER
+PATH_NAME = "test.txt"
+WAYPOINT_DISTANCE = 0.5
+
+#PATH_PUB
+PUB_PATH_NAME = 'test.txt'
+
+
+#CURVED_BASED_VELOCITY_PLANNING
+CAR_MAX_SPEED = 60
+ROAD_FRICTION = 0.15
+
+
+#PURE_PURSUIT
+MIN_LFD = 3.0
+MAX_LFD = 40.0
+LFD_GAIN = 0.8
+
+
+#PID
+PID_P_GAIN = 0.35
+PID_I_GAIN = 0.0
+PID_D_GAIN = 0.001
+
+
+#ACC (TARGET)
+ACC_OBJECT = True
+ACC_PEDESTRIAN = False
+
+DEFAULT_SPACE = 5
