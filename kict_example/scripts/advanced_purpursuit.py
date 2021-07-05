@@ -55,7 +55,7 @@ class pure_pursuit :
         self.forward_point=Point()
         self.current_postion=Point()
         self.is_look_forward_point=False
-        self.vehicle_length=3
+        self.vehicle_length=2
         self.lfd=3
 
         self.ld_gain = LFD_GAIN
